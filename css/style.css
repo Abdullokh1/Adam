@@ -1,7 +1,6 @@
 *{
     padding: 0;
     margin: 0;
-    text-decoration: none;
     box-sizing: border-box;
 }
 body{
@@ -20,34 +19,36 @@ body{
 
 }
 
-.header-list{
+.nav-list{
     display: flex;
     margin-right: 586px;
 
 }
-.header-list-item{
+.nav-item{
     margin: 30px;
     list-style: none;
 }
-.header-active-item{
+.nav-active-item{
     font-weight: 500;
     font-size: 20px;
     line-height: 26px;
-    color: #25202F;
+    color: #25202f;
+    text-decoration: none;
 }
-.nav-list{
+.nav-link{
     font-weight: 500;
     font-size: 20px;
     line-height: 26px;
-    color: #25202F;
+    color: #25202f;
     opacity: 50%;
+    text-decoration: none;
 }
-.nav-list:hover{
+.nav-link:hover{
     color: #25202F;
     opacity: 100%;
 }
 .header-btn{
-    background: #FFFFFF;
+    background: #ffffff;
     box-shadow: 0px 20px 50px rgba(198, 185, 233, 0.3);
     border: none;
     border-radius: 50%;
@@ -73,11 +74,11 @@ body{
     line-height: 29px;
     color: #666666;
 }
-.hero-sec-h2{
+.hero-sec-sub-title{
     font-weight: normal;
     font-size: 24px;
     line-height: 32px;
-    color: #25202F;
+    color: #25202f;
     margin-top: 20px;
 }
 .hero-sec-link{
@@ -90,7 +91,8 @@ body{
     font-size: 24px;
     line-height: 32px;
     text-align: center;
-    color: #FFFFFF;
+    color: #ffffff;
+    text-decoration: none;
 }
 .hero-sec-link:hover{
      background-color: #6b2fb9;
@@ -106,25 +108,22 @@ body{
     margin-top: 100px;
 }
 .features-sec-intro{
-    font-weight: normal;
     font-size: 18px;
     line-height: 24px;
-    color: #8643DC;
+    color: #8643dc;
 }
 .features-sec-hr{
     width: 50px;
     height: 2px;
-    left: 165px;
-    top: 802px;
-    background: #8643DC;
+    background: #8643dc;
     border: none;
     margin-top: 10px;
 }
-.features-sec-h3{
+.features-sec-title{
     font-weight: bold;
     font-size: 36px;
     line-height: 48px;
-    color: #25202F;
+    color: #25202f;
     margin-top: 15px;
 }
 .features-sec-list{
@@ -133,7 +132,7 @@ body{
     justify-content: space-between;
     list-style: none;
 }
-.features-sec-items{
+.list-items{
     margin: 10px;
 }
 .features-sec-h4{
@@ -141,43 +140,39 @@ body{
     font-weight: 500;
     font-size: 24px;
     line-height: 32px;
-    color: #25202F;
+    color: #25202f;
     margin-left: 20px;
 }
-.features-sec-p{
+.features-sec-paragraph{
     margin-top: 21px;
-    font-weight: normal;
     font-size: 16px;
     line-height: 32px;
-    color: #47444E;
+    color: #47444e;
     }
 .features-sec-logo{
-display: flex;
-align-items: center;
+    display: flex;
+    align-items: center;
 }
 .cta-sec-div{
     margin-top: 150px;
 }
-.cta-sec-p{
-    font-weight: normal;
+.cta-sec-paragraph{
     font-size: 18px;
     line-height: 24px;
-    color: #8643DC;
+    color: #8643dc;
 }
 .cta-sec-hr{
     width: 50px;
     height: 2px;
-    left: 165px;
-    top: 1352px;
-    background: #8643DC;
+    background: #8643dc;
     border: none;
     margin-top: 10px;
 }
-.cta-sec-h3{
+.cta-sec-title{
     font-weight: bold;
     font-size: 36px;
     line-height: 48px;
-    color: #25202F;
+    color: #25202f;
     margin-top: 15px;
 }
 .cta-section-division{
@@ -189,12 +184,12 @@ align-items: center;
 .cta-sec-link{
     margin-left: 13px;
 }
-.cta-sec-a{
+.cta-sec-link{
     font-weight: 500;
     font-size: 24px;
     line-height: 32px;
-    text-decoration-line: underline;
-    color: #25202F;
+    color: #25202f;
+    text-decoration: none;
 }
  
 .cta-sec-for-img{
@@ -204,29 +199,26 @@ align-items: center;
 .stats-sec-title{
     margin-top: 168px;
 }
-.stats-sec-p{
-    font-weight: normal;
+.stats-sec-paragraph{
     font-size: 18px;
     line-height: 24px;
-    color: #8643DC;
+    color: #8643dc;
 }
 .stats-sec-hr{
     width: 50px;
     height: 2px;
-    left: 165px;
-    top: 2124px;
-    background: #8643DC;
+    background: #8643dc;
     border: none;
     margin-top: 10px;
 }
 #stats-section{
     box-sizing: border-box;
 }
-.stats-sec-h3{
+.stats-sec-title{
     font-weight: bold;
     font-size: 36px;
     line-height: 48px;
-    color: #25202F;
+    color: #25202f;
     margin-top: 15px;
 }
 .stats-sec-list{
@@ -238,26 +230,23 @@ align-items: center;
 .tea-sec-div{
     margin-top: 150px;
 }
-.team-sec-p{
-    font-weight: normal;
+.team-sec-paragraph{
     font-size: 18px;
     line-height: 24px;    
-    color: #8643DC;
+    color: #8643dc;
 }
 .team-sec-hr{
     width: 50px;
     height: 2px;
-    left: 173px;
-    top: 2635px;
-    background: #8643DC;
+    background: #8643dc;
     border: none;
     margin-top: 10px;
 }
-.team-sec-h3{
+.team-sec-title{
     font-weight: bold;
     font-size: 36px;
     line-height: 48px;
-    color: #25202F;
+    color: #25202f;
     margin-top: 15px;
 }
 .team-sec-person{
@@ -296,7 +285,6 @@ align-items: center;
     margin-top: 20px;
 }
 .team-sec-ceo-mzp{
-    font-weight: normal;
     font-size: 16px;
     line-height: 21px;
     color: #000000;
@@ -311,25 +299,22 @@ align-items: center;
     display: inline-block;
 }
 .new-sec-span{
-    font-weight: normal;
     font-size: 18px;
     line-height: 24px;
-    color: #8643DC;
+    color: #8643dc;
 }
 .news-sec-hr{
     width: 50px;
     height: 2px;
-    left: 165px;
-    top: 3407px;
-    background: #8643DC;
+    background: #8643dc;
     border: none;
     margin-top: 10px;
 }
-.news-sec-h3{
+.news-sec-title{
     font-weight: bold;
     font-size: 36px;
     line-height: 48px;
-    color: #25202F;
+    color: #25202f;
     margin-top: 15px;
     
 }
@@ -347,7 +332,7 @@ align-items: center;
     line-height: 21px;
     color: #8643DC;
 }
-.news-sec-p{
+.news-sec-paragraph{
     font-weight: bold;
     font-size: 20px;
     line-height: 26px;
@@ -369,13 +354,13 @@ align-items: center;
     font-weight: bold;
     font-size: 20px;
     line-height: 26px;
-    color: #FFFFFF;
+    color: #ffffff;
 }
 .news-sec-back-time{
     font-weight: 500;
     font-size: 16px;
     line-height: 21px;
-    color: #FFFFFF;
+    color: #ffffff;
 }
 .news-sec-back-img{
     margin-left: 30px;
@@ -396,13 +381,13 @@ align-items: center;
     font-weight: 500;
     font-size: 16px;
     line-height: 21px;
-    color: #FFFFFF;
+    color: #ffffff;
 }
 .second-back-img-p{
     font-weight: bold;
     font-size: 20px;
     line-height: 26px;
-    color: #FFFFFF;
+    color: #ffffff;
     margin-top: 10px;
 }
 #contact-section{
@@ -417,32 +402,28 @@ align-items: center;
     margin-top: 150px;
 }
 .contact-span{
-    font-weight: normal;
     font-size: 18px;
     line-height: 24px;
-    color: #8643DC;
+    color: #8643dc;
 }
 .contact-sec-hr{
     width: 50px;
     height: 2px;
-    left: 165px;
-    top: 3907px;
-    background: #8643DC;
+    background: #8643dc;
     border: none;
     margin-top: 10px;
 }
-.contact-sec-h3{
+.contact-sec-title{
     font-weight: 500;
     font-size: 36px;
     line-height: 52px;
-    color: #21232D;
+    color: #21232d;
     margin-top: 20px;
 }
 .contact-email{
     margin-top: 204px;
 }
 .email{
-    font-weight: normal;
     font-size: 24px;
     line-height: 28px;
     text-decoration-line: underline;
@@ -475,13 +456,13 @@ align-items: center;
     align-items: center;
 }
 .contact-btn{
-    background: #8643DC;
+    background: #8643dc;
     border-radius: 100px;
     border: none;
     font-weight: 500;
     font-size: 18px;
     line-height: 24px;
-    color: #FFFFFF;
+    color: #ffffff;
     padding: 18px 49px 18px 50px;
     cursor: pointer;
     margin-top: 30px;
